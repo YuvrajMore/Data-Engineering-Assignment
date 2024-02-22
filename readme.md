@@ -3,7 +3,7 @@
 ## Steps involved:
 ## 1. Collecting from data source
 ## 2. Data Cleaning and Transformation
-## 3. Converting transformed data to parquet file format and inserting to database.
+## 3. Converting transformed data to parquet and inserting into database.
 ## 4. Generating power BI report
 
 ### 1. Data Collection:
