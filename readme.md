@@ -23,4 +23,4 @@ Power BI collects data from parquet files and some minor transformations are per
 The create_source_data.ipynb notebook contains last two cells which will fetch 1 row of latest data from same libraries used for creation. This data is appended to existing files when the next cell is executed. In ETL_to_db, there is a cell which reads last row of data from all the files and inserts it to table in database. Once data source is created, these scripts can be run dialy to update the data inside the database table.
 
 ## Logging:
-python logging library is used to create logger and log the process of source data creation and ETL. Two log files are created, which will log info upon succesful operation as well errors if encountered.
+python logging library is used to create logger and log the process of source data creation and ETL. Two log files are created, which will log info upon succesful operation as well as errors or exceptions if encountered.
