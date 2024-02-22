@@ -1,0 +1,140 @@
+2024-02-21 23:10:40,519 | data_create_log | INFO | getting splits data for RELIANCE.NS...
+2024-02-21 23:10:41,312 | data_create_log | INFO | Successfully fetched splits data for RELIANCE.NS
+2024-02-21 23:10:41,313 | data_create_log | INFO | getting splits data for BHARTIARTL.NS...
+2024-02-21 23:10:41,969 | data_create_log | INFO | Successfully fetched splits data for BHARTIARTL.NS
+2024-02-21 23:10:41,970 | data_create_log | INFO | getting splits data for ASIANPAINT.NS...
+2024-02-21 23:10:42,655 | data_create_log | INFO | Successfully fetched splits data for ASIANPAINT.NS
+2024-02-21 23:10:42,656 | data_create_log | INFO | getting splits data for HDFCBANK.NS...
+2024-02-21 23:10:43,362 | data_create_log | INFO | Successfully fetched splits data for HDFCBANK.NS
+2024-02-21 23:10:43,365 | data_create_log | INFO | getting splits data for ICICIBANK.NS...
+2024-02-21 23:10:43,962 | data_create_log | INFO | Successfully fetched splits data for ICICIBANK.NS
+2024-02-21 23:10:43,963 | data_create_log | INFO | getting splits data for SBIN.NS...
+2024-02-21 23:10:44,608 | data_create_log | INFO | Successfully fetched splits data for SBIN.NS
+2024-02-21 23:10:44,609 | data_create_log | INFO | getting splits data for TCS.NS...
+2024-02-21 23:10:45,281 | data_create_log | INFO | Successfully fetched splits data for TCS.NS
+2024-02-21 23:10:45,281 | data_create_log | INFO | getting splits data for MPHASIS.NS...
+2024-02-21 23:10:46,022 | data_create_log | INFO | Successfully fetched splits data for MPHASIS.NS
+2024-02-21 23:10:46,023 | data_create_log | INFO | getting splits data for TECHM.NS...
+2024-02-21 23:10:46,675 | data_create_log | INFO | Successfully fetched splits data for TECHM.NS
+2024-02-21 23:10:46,676 | data_create_log | INFO | Successfully fetched data for 9 ticker names
+2024-02-21 23:10:46,680 | data_create_log | INFO | Successfully saved dataframe to path D:\Study\DE\Project\data_source\splits_dividends_data\splits_data.csv
+2024-02-21 23:10:46,693 | data_create_log | INFO | getting dividends data for RELIANCE.NS...
+2024-02-21 23:10:47,451 | data_create_log | INFO | Successfully fetched dividends data for RELIANCE.NS
+2024-02-21 23:10:47,452 | data_create_log | INFO | getting dividends data for BHARTIARTL.NS...
+2024-02-21 23:10:48,167 | data_create_log | INFO | Successfully fetched dividends data for BHARTIARTL.NS
+2024-02-21 23:10:48,167 | data_create_log | INFO | getting dividends data for ASIANPAINT.NS...
+2024-02-21 23:10:48,854 | data_create_log | INFO | Successfully fetched dividends data for ASIANPAINT.NS
+2024-02-21 23:10:48,855 | data_create_log | INFO | getting dividends data for HDFCBANK.NS...
+2024-02-21 23:10:49,557 | data_create_log | INFO | Successfully fetched dividends data for HDFCBANK.NS
+2024-02-21 23:10:49,558 | data_create_log | INFO | getting dividends data for ICICIBANK.NS...
+2024-02-21 23:10:50,263 | data_create_log | INFO | Successfully fetched dividends data for ICICIBANK.NS
+2024-02-21 23:10:50,263 | data_create_log | INFO | getting dividends data for SBIN.NS...
+2024-02-21 23:10:51,188 | data_create_log | INFO | Successfully fetched dividends data for SBIN.NS
+2024-02-21 23:10:51,189 | data_create_log | INFO | getting dividends data for TCS.NS...
+2024-02-21 23:10:51,755 | data_create_log | INFO | Successfully fetched dividends data for TCS.NS
+2024-02-21 23:10:51,755 | data_create_log | INFO | getting dividends data for MPHASIS.NS...
+2024-02-21 23:10:52,326 | data_create_log | INFO | Successfully fetched dividends data for MPHASIS.NS
+2024-02-21 23:10:52,326 | data_create_log | INFO | getting dividends data for TECHM.NS...
+2024-02-21 23:10:52,901 | data_create_log | INFO | Successfully fetched dividends data for TECHM.NS
+2024-02-21 23:10:52,902 | data_create_log | INFO | Successfully fetched dividend data for 9 ticker names
+2024-02-21 23:10:52,904 | data_create_log | INFO | Successfully saved dataframe to path D:\Study\DE\Project\data_source\splits_dividends_data\dividends_data.csv
+2024-02-21 23:10:53,976 | data_create_log | INFO | Successfully fetched data for ticker name: ^NSEI
+2024-02-21 23:10:53,978 | data_create_log | INFO | Successfully created dataframe for ticker name: ^NSEI
+2024-02-21 23:10:54,118 | data_create_log | INFO | Successfully fetched data for ticker name: RELIANCE.NS
+2024-02-21 23:10:54,119 | data_create_log | INFO | Successfully created dataframe for ticker name: RELIANCE.NS
+2024-02-21 23:10:54,234 | data_create_log | INFO | Successfully fetched data for ticker name: BHARTIARTL.NS
+2024-02-21 23:10:54,237 | data_create_log | INFO | Successfully created dataframe for ticker name: BHARTIARTL.NS
+2024-02-21 23:10:54,415 | data_create_log | INFO | Successfully fetched data for ticker name: ASIANPAINT.NS
+2024-02-21 23:10:54,416 | data_create_log | INFO | Successfully created dataframe for ticker name: ASIANPAINT.NS
+2024-02-21 23:10:54,654 | data_create_log | INFO | Successfully fetched data for ticker name: HDFCBANK.NS
+2024-02-21 23:10:54,656 | data_create_log | INFO | Successfully created dataframe for ticker name: HDFCBANK.NS
+2024-02-21 23:10:54,784 | data_create_log | INFO | Successfully fetched data for ticker name: ICICIBANK.NS
+2024-02-21 23:10:54,786 | data_create_log | INFO | Successfully created dataframe for ticker name: ICICIBANK.NS
+2024-02-21 23:10:54,922 | data_create_log | INFO | Successfully fetched data for ticker name: SBIN.NS
+2024-02-21 23:10:54,925 | data_create_log | INFO | Successfully created dataframe for ticker name: SBIN.NS
+2024-02-21 23:10:55,051 | data_create_log | INFO | Successfully fetched data for ticker name: TCS.NS
+2024-02-21 23:10:55,053 | data_create_log | INFO | Successfully created dataframe for ticker name: TCS.NS
+2024-02-21 23:10:55,175 | data_create_log | INFO | Successfully fetched data for ticker name: MPHASIS.NS
+2024-02-21 23:10:55,177 | data_create_log | INFO | Successfully created dataframe for ticker name: MPHASIS.NS
+2024-02-21 23:10:55,291 | data_create_log | INFO | Successfully fetched data for ticker name: TECHM.NS
+2024-02-21 23:10:55,292 | data_create_log | INFO | Successfully created dataframe for ticker name: TECHM.NS
+2024-02-21 23:10:57,904 | data_create_log | INFO | Successfully fetched data for ticker name: ^NSEI
+2024-02-21 23:10:57,908 | data_create_log | INFO | Successfully created dataframe for ticker name: ^NSEI
+2024-02-21 23:10:57,909 | data_create_log | INFO | Successfully fetched 1472 rows of data for ticker ^NSEI
+2024-02-21 23:10:57,920 | data_create_log | INFO | Successfully saved file NSEI.csv to path D:\Study\DE\Project\data_source\
+2024-02-21 23:10:58,149 | data_create_log | INFO | Successfully fetched data for ticker name: RELIANCE.NS
+2024-02-21 23:10:58,153 | data_create_log | INFO | Successfully created dataframe for ticker name: RELIANCE.NS
+2024-02-21 23:10:58,154 | data_create_log | INFO | Successfully fetched 1475 rows of data for ticker RELIANCE.NS
+2024-02-21 23:10:58,167 | data_create_log | INFO | Successfully saved file RELIANCE.csv to path D:\Study\DE\Project\data_source\
+2024-02-21 23:10:58,570 | data_create_log | INFO | Successfully fetched data for ticker name: BHARTIARTL.NS
+2024-02-21 23:10:58,575 | data_create_log | INFO | Successfully created dataframe for ticker name: BHARTIARTL.NS
+2024-02-21 23:10:58,576 | data_create_log | INFO | Successfully fetched 1475 rows of data for ticker BHARTIARTL.NS
+2024-02-21 23:10:58,588 | data_create_log | INFO | Successfully saved file BHARTIARTL.csv to path D:\Study\DE\Project\data_source\
+2024-02-21 23:10:58,844 | data_create_log | INFO | Successfully fetched data for ticker name: ASIANPAINT.NS
+2024-02-21 23:10:58,848 | data_create_log | INFO | Successfully created dataframe for ticker name: ASIANPAINT.NS
+2024-02-21 23:10:58,849 | data_create_log | INFO | Successfully fetched 1475 rows of data for ticker ASIANPAINT.NS
+2024-02-21 23:10:58,863 | data_create_log | INFO | Successfully saved file ASIANPAINT.csv to path D:\Study\DE\Project\data_source\
+2024-02-21 23:10:59,135 | data_create_log | INFO | Successfully fetched data for ticker name: HDFCBANK.NS
+2024-02-21 23:10:59,139 | data_create_log | INFO | Successfully created dataframe for ticker name: HDFCBANK.NS
+2024-02-21 23:10:59,141 | data_create_log | INFO | Successfully fetched 1475 rows of data for ticker HDFCBANK.NS
+2024-02-21 23:10:59,158 | data_create_log | INFO | Successfully saved file HDFCBANK.csv to path D:\Study\DE\Project\data_source\
+2024-02-21 23:11:00,514 | data_create_log | INFO | Successfully fetched data for ticker name: ICICIBANK.NS
+2024-02-21 23:11:00,518 | data_create_log | INFO | Successfully created dataframe for ticker name: ICICIBANK.NS
+2024-02-21 23:11:00,519 | data_create_log | INFO | Successfully fetched 1475 rows of data for ticker ICICIBANK.NS
+2024-02-21 23:11:00,523 | data_create_log | INFO | Successfully saved file ICICIBANK.json to path D:\Study\DE\Project\data_source\
+2024-02-21 23:11:00,794 | data_create_log | INFO | Successfully fetched data for ticker name: SBIN.NS
+2024-02-21 23:11:00,799 | data_create_log | INFO | Successfully created dataframe for ticker name: SBIN.NS
+2024-02-21 23:11:00,800 | data_create_log | INFO | Successfully fetched 1475 rows of data for ticker SBIN.NS
+2024-02-21 23:11:00,806 | data_create_log | INFO | Successfully saved file SBIN.json to path D:\Study\DE\Project\data_source\
+2024-02-21 23:11:01,082 | data_create_log | INFO | Successfully fetched data for ticker name: TCS.NS
+2024-02-21 23:11:01,086 | data_create_log | INFO | Successfully created dataframe for ticker name: TCS.NS
+2024-02-21 23:11:01,087 | data_create_log | INFO | Successfully fetched 1475 rows of data for ticker TCS.NS
+2024-02-21 23:11:01,092 | data_create_log | INFO | Successfully saved file TCS.json to path D:\Study\DE\Project\data_source\
+2024-02-21 23:11:01,297 | data_create_log | INFO | Successfully fetched data for ticker name: MPHASIS.NS
+2024-02-21 23:11:01,302 | data_create_log | INFO | Successfully created dataframe for ticker name: MPHASIS.NS
+2024-02-21 23:11:01,303 | data_create_log | INFO | Successfully fetched 1475 rows of data for ticker MPHASIS.NS
+2024-02-21 23:11:01,309 | data_create_log | INFO | Successfully saved file MPHASIS.json to path D:\Study\DE\Project\data_source\
+2024-02-21 23:11:01,499 | data_create_log | INFO | Successfully fetched data for ticker name: TECHM.NS
+2024-02-21 23:11:01,504 | data_create_log | INFO | Successfully created dataframe for ticker name: TECHM.NS
+2024-02-21 23:11:01,505 | data_create_log | INFO | Successfully fetched 1475 rows of data for ticker TECHM.NS
+2024-02-21 23:11:01,510 | data_create_log | INFO | Successfully saved file TECHM.json to path D:\Study\DE\Project\data_source\
+2024-02-21 23:12:03,643 | data_create_log | INFO | Successfully fetched data for ticker name: ^NSEI
+2024-02-21 23:12:03,645 | data_create_log | INFO | Successfully created dataframe for ticker name: ^NSEI
+2024-02-21 23:12:03,645 | data_create_log | INFO | Successfully fetched 1 rows of data for ticker ^NSEI
+2024-02-21 23:12:03,648 | data_create_log | INFO | Successfully saved 1 rows to file D:\Study\DE\Project\data_source\NSEI.csv
+2024-02-21 23:12:03,772 | data_create_log | INFO | Successfully fetched data for ticker name: RELIANCE.NS
+2024-02-21 23:12:03,773 | data_create_log | INFO | Successfully created dataframe for ticker name: RELIANCE.NS
+2024-02-21 23:12:03,774 | data_create_log | INFO | Successfully fetched 1 rows of data for ticker RELIANCE.NS
+2024-02-21 23:12:03,777 | data_create_log | INFO | Successfully saved 1 rows to file D:\Study\DE\Project\data_source\RELIANCE.csv
+2024-02-21 23:12:04,002 | data_create_log | INFO | Successfully fetched data for ticker name: BHARTIARTL.NS
+2024-02-21 23:12:04,004 | data_create_log | INFO | Successfully created dataframe for ticker name: BHARTIARTL.NS
+2024-02-21 23:12:04,004 | data_create_log | INFO | Successfully fetched 1 rows of data for ticker BHARTIARTL.NS
+2024-02-21 23:12:04,007 | data_create_log | INFO | Successfully saved 1 rows to file D:\Study\DE\Project\data_source\BHARTIARTL.csv
+2024-02-21 23:12:04,133 | data_create_log | INFO | Successfully fetched data for ticker name: ASIANPAINT.NS
+2024-02-21 23:12:04,135 | data_create_log | INFO | Successfully created dataframe for ticker name: ASIANPAINT.NS
+2024-02-21 23:12:04,135 | data_create_log | INFO | Successfully fetched 1 rows of data for ticker ASIANPAINT.NS
+2024-02-21 23:12:04,138 | data_create_log | INFO | Successfully saved 1 rows to file D:\Study\DE\Project\data_source\ASIANPAINT.csv
+2024-02-21 23:12:04,269 | data_create_log | INFO | Successfully fetched data for ticker name: HDFCBANK.NS
+2024-02-21 23:12:04,271 | data_create_log | INFO | Successfully created dataframe for ticker name: HDFCBANK.NS
+2024-02-21 23:12:04,272 | data_create_log | INFO | Successfully fetched 1 rows of data for ticker HDFCBANK.NS
+2024-02-21 23:12:04,275 | data_create_log | INFO | Successfully saved 1 rows to file D:\Study\DE\Project\data_source\HDFCBANK.csv
+2024-02-21 23:12:07,003 | data_create_log | INFO | Successfully fetched data for ticker name: ICICIBANK.NS
+2024-02-21 23:12:07,006 | data_create_log | INFO | Successfully created dataframe for ticker name: ICICIBANK.NS
+2024-02-21 23:12:07,006 | data_create_log | INFO | Successfully fetched 1 rows of data for ticker ICICIBANK.NS
+2024-02-21 23:12:07,050 | data_create_log | INFO | Successfully saved 1 rows to file D:\Study\DE\Project\data_source\ICICIBANK.json
+2024-02-21 23:12:07,180 | data_create_log | INFO | Successfully fetched data for ticker name: SBIN.NS
+2024-02-21 23:12:07,182 | data_create_log | INFO | Successfully created dataframe for ticker name: SBIN.NS
+2024-02-21 23:12:07,183 | data_create_log | INFO | Successfully fetched 1 rows of data for ticker SBIN.NS
+2024-02-21 23:12:07,226 | data_create_log | INFO | Successfully saved 1 rows to file D:\Study\DE\Project\data_source\SBIN.json
+2024-02-21 23:12:07,358 | data_create_log | INFO | Successfully fetched data for ticker name: TCS.NS
+2024-02-21 23:12:07,359 | data_create_log | INFO | Successfully created dataframe for ticker name: TCS.NS
+2024-02-21 23:12:07,360 | data_create_log | INFO | Successfully fetched 1 rows of data for ticker TCS.NS
+2024-02-21 23:12:07,403 | data_create_log | INFO | Successfully saved 1 rows to file D:\Study\DE\Project\data_source\TCS.json
+2024-02-21 23:12:07,523 | data_create_log | INFO | Successfully fetched data for ticker name: MPHASIS.NS
+2024-02-21 23:12:07,524 | data_create_log | INFO | Successfully created dataframe for ticker name: MPHASIS.NS
+2024-02-21 23:12:07,525 | data_create_log | INFO | Successfully fetched 1 rows of data for ticker MPHASIS.NS
+2024-02-21 23:12:07,568 | data_create_log | INFO | Successfully saved 1 rows to file D:\Study\DE\Project\data_source\MPHASIS.json
+2024-02-21 23:12:07,679 | data_create_log | INFO | Successfully fetched data for ticker name: TECHM.NS
+2024-02-21 23:12:07,681 | data_create_log | INFO | Successfully created dataframe for ticker name: TECHM.NS
+2024-02-21 23:12:07,682 | data_create_log | INFO | Successfully fetched 1 rows of data for ticker TECHM.NS
+2024-02-21 23:12:07,724 | data_create_log | INFO | Successfully saved 1 rows to file D:\Study\DE\Project\data_source\TECHM.json

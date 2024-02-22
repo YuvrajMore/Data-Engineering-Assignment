@@ -1,0 +1,86 @@
+2024-02-21 23:11:10,543 | data_ETLC_log | INFO | Created connection of type <class 'psycopg2.extensions.connection'>
+2024-02-21 23:11:10,543 | data_ETLC_log | INFO | Created cursor object of type <class 'psycopg2.extensions.cursor'>
+2024-02-21 23:11:12,609 | data_ETLC_log | INFO | Equity table created succesfully.
+2024-02-21 23:11:13,618 | data_ETLC_log | INFO | Equity retrieved for NIFTY 50.
+2024-02-21 23:11:13,620 | data_ETLC_log | INFO | Data for equity NIFTY 50 added to equity table in database.
+2024-02-21 23:11:13,908 | data_ETLC_log | INFO | Equity retrieved for Reliance Industries Limited.
+2024-02-21 23:11:13,942 | data_ETLC_log | INFO | Data for equity Reliance Industries Limited added to equity table in database.
+2024-02-21 23:11:14,117 | data_ETLC_log | INFO | Equity retrieved for Bharti Airtel Limited.
+2024-02-21 23:11:14,143 | data_ETLC_log | INFO | Data for equity Bharti Airtel Limited added to equity table in database.
+2024-02-21 23:11:14,323 | data_ETLC_log | INFO | Equity retrieved for Asian Paints Limited.
+2024-02-21 23:11:14,416 | data_ETLC_log | INFO | Data for equity Asian Paints Limited added to equity table in database.
+2024-02-21 23:11:14,589 | data_ETLC_log | INFO | Equity retrieved for HDFC Bank Limited.
+2024-02-21 23:11:14,613 | data_ETLC_log | INFO | Data for equity HDFC Bank Limited added to equity table in database.
+2024-02-21 23:11:14,787 | data_ETLC_log | INFO | Equity retrieved for ICICI Bank Limited.
+2024-02-21 23:11:14,810 | data_ETLC_log | INFO | Data for equity ICICI Bank Limited added to equity table in database.
+2024-02-21 23:11:14,978 | data_ETLC_log | INFO | Equity retrieved for State Bank of India.
+2024-02-21 23:11:15,002 | data_ETLC_log | INFO | Data for equity State Bank of India added to equity table in database.
+2024-02-21 23:11:15,176 | data_ETLC_log | INFO | Equity retrieved for Tata Consultancy Services Limited.
+2024-02-21 23:11:15,200 | data_ETLC_log | INFO | Data for equity Tata Consultancy Services Limited added to equity table in database.
+2024-02-21 23:11:15,374 | data_ETLC_log | INFO | Equity retrieved for Mphasis Limited.
+2024-02-21 23:11:15,454 | data_ETLC_log | INFO | Data for equity Mphasis Limited added to equity table in database.
+2024-02-21 23:11:15,625 | data_ETLC_log | INFO | Equity retrieved for Tech Mahindra Limited.
+2024-02-21 23:11:15,649 | data_ETLC_log | INFO | Data for equity Tech Mahindra Limited added to equity table in database.
+2024-02-21 23:11:23,964 | data_ETLC_log | INFO | Dataframe ticker column is modified succesfully.
+2024-02-21 23:11:23,965 | data_ETLC_log | INFO | Number of records loaded from dividend data: 292
+2024-02-21 23:11:26,236 | data_ETLC_log | INFO | Dataframe ticker column is modified succesfully.
+2024-02-21 23:11:26,237 | data_ETLC_log | INFO | Number of records loaded from splits data: 18
+2024-02-21 23:11:29,494 | data_ETLC_log | INFO | Succesfully created table names split_data
+2024-02-21 23:11:29,513 | data_ETLC_log | INFO | Succesfully inserted 18 rows to split_data table in database
+2024-02-21 23:11:29,518 | data_ETLC_log | INFO | Succesfully created table names dividend_data
+2024-02-21 23:11:29,650 | data_ETLC_log | INFO | Succesfully inserted 292 rows to dividend_data table in database
+2024-02-21 23:11:38,048 | data_ETLC_log | INFO | Dataframe file_path column is modified succesfully.
+2024-02-21 23:11:38,278 | data_ETLC_log | INFO | Successfully created single combined dataframe of all csv files
+2024-02-21 23:11:40,885 | data_ETLC_log | INFO | Dataframe file_path column is modified succesfully.
+2024-02-21 23:11:41,158 | data_ETLC_log | INFO | Successfully created single combined dataframe of all json files
+2024-02-21 23:11:43,249 | data_ETLC_log | INFO | Succesfully created concatenated dataframe of all csv and json files
+2024-02-21 23:11:43,597 | data_ETLC_log | INFO | OHLC Feed successfully saved to data_destination directory in parquet format.
+2024-02-21 23:11:46,178 | data_ETLC_log | INFO | Successfully created table named OHLC_Feed in database
+2024-02-21 23:11:54,036 | data_ETLC_log | INFO | Successfully inserted Delayed('int-3e100e8f-89fb-4ee5-8ed1-b3b915375eec') rows to table named OHLC_Feed in database
+2024-02-21 23:12:15,276 | data_ETLC_log | INFO | Successfully read last row from file: NSEI.csv
+2024-02-21 23:12:15,278 | data_ETLC_log | INFO | Successfully inserted last row from file: NSEI.csv to ohlc_feed table in database
+2024-02-21 23:12:15,286 | data_ETLC_log | INFO | Successfully read last row from file: RELIANCE.csv
+2024-02-21 23:12:15,287 | data_ETLC_log | INFO | Successfully inserted last row from file: RELIANCE.csv to ohlc_feed table in database
+2024-02-21 23:12:15,296 | data_ETLC_log | INFO | Successfully read last row from file: BHARTIARTL.csv
+2024-02-21 23:12:15,297 | data_ETLC_log | INFO | Successfully inserted last row from file: BHARTIARTL.csv to ohlc_feed table in database
+2024-02-21 23:12:15,307 | data_ETLC_log | INFO | Successfully read last row from file: ASIANPAINT.csv
+2024-02-21 23:12:15,308 | data_ETLC_log | INFO | Successfully inserted last row from file: ASIANPAINT.csv to ohlc_feed table in database
+2024-02-21 23:12:15,318 | data_ETLC_log | INFO | Successfully read last row from file: HDFCBANK.csv
+2024-02-21 23:12:15,319 | data_ETLC_log | INFO | Successfully inserted last row from file: HDFCBANK.csv to ohlc_feed table in database
+2024-02-21 23:12:15,335 | data_ETLC_log | INFO | Successfully read last row from file: ICICIBANK.json
+2024-02-21 23:12:15,336 | data_ETLC_log | INFO | Successfully inserted last row from file: ICICIBANK.json to ohlc_feed table in database
+2024-02-21 23:12:15,353 | data_ETLC_log | INFO | Successfully read last row from file: SBIN.json
+2024-02-21 23:12:15,354 | data_ETLC_log | INFO | Successfully inserted last row from file: SBIN.json to ohlc_feed table in database
+2024-02-21 23:12:15,380 | data_ETLC_log | INFO | Successfully read last row from file: TCS.json
+2024-02-21 23:12:15,381 | data_ETLC_log | INFO | Successfully inserted last row from file: TCS.json to ohlc_feed table in database
+2024-02-21 23:12:15,401 | data_ETLC_log | INFO | Successfully read last row from file: MPHASIS.json
+2024-02-21 23:12:15,402 | data_ETLC_log | INFO | Successfully inserted last row from file: MPHASIS.json to ohlc_feed table in database
+2024-02-21 23:12:15,468 | data_ETLC_log | INFO | Successfully read last row from file: TECHM.json
+2024-02-21 23:12:15,469 | data_ETLC_log | INFO | Successfully inserted last row from file: TECHM.json to ohlc_feed table in database
+2024-02-21 23:12:25,244 | data_ETLC_log | INFO | Successfully read 730 rows from ohlc_feed table in database
+2024-02-21 23:12:25,252 | data_ETLC_log | INFO | Range of calculation is from [datetime.date(2023, 11, 6)] to [datetime.date(2024, 2, 21)].
+2024-02-21 23:12:31,090 | data_ETLC_log | INFO | Succesfully performed calculations on dataframe for equity_id: 1, Calculated 58 number of rows and 14 number of columns
+2024-02-21 23:12:31,099 | data_ETLC_log | INFO | Succesfully performed calculations on dataframe for equity_id: 2, Calculated 58 number of rows and 14 number of columns
+2024-02-21 23:12:31,106 | data_ETLC_log | INFO | Succesfully performed calculations on dataframe for equity_id: 3, Calculated 58 number of rows and 14 number of columns
+2024-02-21 23:12:31,113 | data_ETLC_log | INFO | Succesfully performed calculations on dataframe for equity_id: 4, Calculated 58 number of rows and 14 number of columns
+2024-02-21 23:12:31,119 | data_ETLC_log | INFO | Succesfully performed calculations on dataframe for equity_id: 5, Calculated 58 number of rows and 14 number of columns
+2024-02-21 23:12:31,128 | data_ETLC_log | INFO | Succesfully performed calculations on dataframe for equity_id: 6, Calculated 58 number of rows and 14 number of columns
+2024-02-21 23:12:31,136 | data_ETLC_log | INFO | Succesfully performed calculations on dataframe for equity_id: 7, Calculated 58 number of rows and 14 number of columns
+2024-02-21 23:12:31,143 | data_ETLC_log | INFO | Succesfully performed calculations on dataframe for equity_id: 8, Calculated 58 number of rows and 14 number of columns
+2024-02-21 23:12:31,150 | data_ETLC_log | INFO | Succesfully performed calculations on dataframe for equity_id: 9, Calculated 58 number of rows and 14 number of columns
+2024-02-21 23:12:31,157 | data_ETLC_log | INFO | Succesfully performed calculations on dataframe for equity_id: 10, Calculated 58 number of rows and 14 number of columns
+2024-02-21 23:12:35,803 | data_ETLC_log | INFO | Number NaN values in calculated dataframe: 0
+2024-02-21 23:12:35,803 | data_ETLC_log | INFO | Number of rows in calculated dataframe: 580
+2024-02-21 23:12:35,803 | data_ETLC_log | INFO | Number of columns in calculated dataframe: 14
+2024-02-21 23:12:35,808 | data_ETLC_log | INFO | Calculations are available for date range printed below.
+2024-02-21 23:12:35,809 | data_ETLC_log | INFO | Starting from : ['2023-11-29']
+2024-02-21 23:12:35,811 | data_ETLC_log | INFO | Starting from : ['2024-02-21']
+2024-02-21 23:12:49,169 | data_ETLC_log | INFO | Number NaN values in calculated dataframe: 0
+2024-02-21 23:12:49,170 | data_ETLC_log | INFO | Number of rows in calculated dataframe: 580
+2024-02-21 23:12:49,170 | data_ETLC_log | INFO | Number of columns in calculated dataframe: 14
+2024-02-21 23:12:49,175 | data_ETLC_log | INFO | Calculations are available for date range printed below.
+2024-02-21 23:12:49,177 | data_ETLC_log | INFO | Starting from : ['2023-11-29']
+2024-02-21 23:12:49,179 | data_ETLC_log | INFO | Starting from : ['2024-02-21']
+2024-02-21 23:13:04,753 | data_ETLC_log | INFO | Successfully created table named short_term_analysis
+2024-02-22 14:58:14,253 | data_ETLC_log | INFO | Dataframe ticker column is modified succesfully.
+2024-02-22 14:58:14,254 | data_ETLC_log | INFO | Number of records loaded from splits data: 18
