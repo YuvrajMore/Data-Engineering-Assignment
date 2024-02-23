@@ -1,5 +1,8 @@
 # Data Engineering Assignment
 
+## Edit - 
+Updated ETL notebook to remove outliers before preparing data for analysis only. Outliers will be stored in database and data destination as it as, but must be removed before calculating indicators as they can influence statistical analysis.
+
 ## Steps involved:
 ## 1. Collecting from data source
 ## 2. Data Cleaning and Transformation
